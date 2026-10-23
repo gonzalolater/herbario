@@ -1,19 +1,41 @@
-# React + Vite
+# 🌿 Herbario Químico Artesanal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Una plataforma web interactiva y *responsive* desarrollada para **Herbario Químico Artesanal**, un emprendimiento dedicado a la extracción consciente, la ciencia botánica y la alquimia natural. 
 
-Currently, two official plugins are available:
+El sitio presenta el catálogo de preparados (tinturas madres, oleolatos e hidrolatos), explica el proceso de extracción en laboratorio y permite a los clientes realizar consultas o pedidos de lotes directamente a través de un formulario integrado.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🎯 Propósito del Proyecto
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+El objetivo principal de este proyecto es brindar una presencia digital moderna, clara y accesible que combine la precisión científica de laboratorio con la estética natural de la botánica artesanal. 
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
+Permite a los usuarios:
+- Conocer la filosofía del laboratorio y la calidad de las extracciones.
+- Explorar los distintos preparados y productos disponibles.
+- Comprender el método de selección, maceración y envasado.
+- Enviar consultas y pedidos directamente a la casilla de correo del proyecto.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tecnologías Utilizadas
+
+- **[React](https://react.dev/)**: Librería principal para la creación de la interfaz de usuario basada en componentes.
+- **[Vite](https://vite.dev/)**: *Bundler* y entorno de desarrollo ultra rápido para proyectos Web.
+- **CSS3 / Flexbox & CSS Grid**: Estilizado personalizado enfocado en diseño *mobile-first* y adaptable a cualquier pantalla (Desktop, Tablet, Mobile).
+- **[Netlify Forms](https://docs.netlify.com/forms/setup/)**: Procesamiento e integración nativa de formularios de contacto sin necesidad de servidor backend.
+- **SVG / Iconografía**: Favicon personalizado e íconos vectoriales para una experiencia visual estética.
+
+---
+
+## 🚀 Cómo Ejecutar el Proyecto Localmente
+
+Sigue estos pasos para clonar e instalar el proyecto en tu máquina local:
+
+### Requisitos previos
+Tener instalado **Node.js** (versión 18 o superior recomendada) y **npm**.
+
+### 1. Clonar el repositorio
+```bash
+git clone [https://github.com/gonzalolater/herbario.git](https://github.com/gonzalolater/herbario.git)
+cd herbario
